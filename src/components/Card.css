@@ -1,0 +1,36 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	width: 15rem;
+	padding: 10px;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 30px;
+}
+
+.card-img {
+	width: 14.5rem;
+	border-radius: 30px;
+}
+
+.card-img > img {
+	width: 100%;
+	border-radius: 30px;
+}
+
+.card-body {
+	text-align: center;
+	margin: 25px;
+}
+
+.card-title {
+	color: hsl(218, 44%, 22%);
+	font-weight: 700;
+}
+
+.card-text {
+	color: hsl(220, 15%, 55%);
+	font-weight: 400;
+}
